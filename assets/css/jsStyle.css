@@ -1,0 +1,53 @@
+body {
+	background: #708090;
+	height: 100%;
+	display: grid;
+}
+
+.container {
+	font-family: IBM Plex Serif;
+	color: white;
+	max-width: 433px;
+	height: 250px;
+	margin: 20px auto;
+	box-shadow: 4px 4px 8px #232323;
+	background: #232323;
+}
+
+.timeBlocks {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	float: left;
+	margin: 4px;
+	font-size: 25px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+.buttonContainer {
+	/*background: pink;*/
+	height: 55px;
+	margin: 6px auto;
+	max-width: 250px;	
+	height: 27px;
+}
+
+#buttonStart {
+	font-size: 20px;
+	box-shadow: 0px 0px 4px #232323;
+	float: left;
+	margin: 4px;
+
+}
+
+#buttonStop {
+	font-size: 20px;
+	box-shadow: 0px 0px 4px #232323;
+	float: left;
+	margin: 4px;
+}
